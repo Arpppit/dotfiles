@@ -1,0 +1,26 @@
+add_newline = false
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+
+[directory]
+style = "cyan"
+read_only = " 🔒"
+
+[git_status]
+style = "yellow"
+
+[cmd_duration]
+min_time = 1_000
+format = "⏱ [$duration](yellow)"
+
+[time]
+disabled = false
+format = "🕒 [$time]($style)"
+time_format = "%I:%M:%S %p"
+style = "white"
+
+[package]
+disabled = true
+
